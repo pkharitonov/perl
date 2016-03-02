@@ -2,7 +2,7 @@ use strict;
 use DDP;
 use Data::Dumper;
 
-open my $str, "< table.txt" or die 'Error!';
+open my $str, "< table" or die 'Error!';
 my @F;
 while (<$str>) {
   chomp;
