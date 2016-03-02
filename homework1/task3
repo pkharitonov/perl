@@ -1,0 +1,17 @@
+use strict;
+use DDP;
+use Data::Dumper;
+
+open my $str, "< table.txt" or die 'Error!';
+my @F;
+while (<$str>) {
+  chomp;
+  my @f = split ':';
+  push @F, \@f;
+}
+
+p @F;
+print Dumper @F;
+
+
+
