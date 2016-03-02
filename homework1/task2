@@ -1,1 +1,1 @@
-perl -lnaF':' -e "BEGIN {$i = 0} for ($j = 0;$F[$j];$j++) {print $i.' '.$j if ($F[$j] > 10)} $i++" table.txt
+perl -lnaF':' -e "BEGIN {$i = 0} for ($j = 0;$F[$j];$j++) {print $i.' '.$j if ($F[$j] > 10)} $i++" table
